@@ -6,6 +6,67 @@
 
 .questionBox{
     background-image: url("../assets/background.png");
-    width: 99vw;
-    height: 90vh;
+    width: 98.5vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 65vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px;
+    background-color: white;
+}
+
+.leftContainer{
+    border: 1px solid red;
+    width: 40vh;
+    height: 85vh;
+    position: absolute;
+    left: 17%;
+    border-radius: 33px 0 0 33px;
+}
+
+.background{
+    width: 40vh;
+    height: 85vh;
+}
+
+.logo{
+    position: absolute;
+}
+
+.rightContainer{
+    border: 1px solid rgb(48, 177, 72);
+    width: 100vh;
+    height: 85vh;
+    position: absolute;
+    left: 35.9%;
+    border-radius: 0 33px 33px 0;
+}
+
+.theme{
+    position: absolute;
+    left: 85vh;
+    top: 4vh;
+    height: 6vh;
+    width: 11vh;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(111, 83, 221, 1);
+    font-size: 16px;
+    color: white;
+}
+
+h3{
+    margin-top: 20vh;
+}
+
+h1{
+    
 }

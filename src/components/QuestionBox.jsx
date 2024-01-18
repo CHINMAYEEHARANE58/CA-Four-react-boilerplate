@@ -7,7 +7,8 @@ export default function QuestionBox() {
       <div className='container'>
 
         <div className='leftContainer'>
-          <img className='logo' src=""/>
+          <img className='logo' src="../" alt='logo'/>
+          <img className='background' src="../assets/leftImage.png" alt="background"/>
         </div>
         <div className='rightContainer'>
           <button className='theme'>Dark</button>

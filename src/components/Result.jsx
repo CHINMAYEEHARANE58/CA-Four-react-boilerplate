@@ -7,7 +7,7 @@ export default function Result() {
       <div className='container'>
 
         <div className='leftContainer'>
-          <img className='logo' src=""/>
+        <img className='logo' src="../assets/leftSide img.png" alt='logo'/>
         </div>
 
         <div className='rightContainer'>
