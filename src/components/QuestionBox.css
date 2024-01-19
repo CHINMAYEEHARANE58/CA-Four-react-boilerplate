@@ -5,7 +5,8 @@
 }
 
 .questionBox{
-    background-image: url("../assets/background.png");
+    background: linear-gradient(180deg, #6F53DD 0%, rgba(127, 98, 239, 0.75) 38%, rgba(118, 90, 225, 0.69) 57%, #7159CD 100%);
+    /* background: linear-gradient(180deg, #190957 0%, rgba(29, 11, 101, 0.75) 38%, rgba(29, 19, 66, 0.69) 57%, #1E0C66 100%); */
     width: 98.5vw;
     height: 100vh;
     display: flex;
@@ -63,11 +64,19 @@
     font-size: 16px;
     color: white;
     transition: 0.5s ease;
+    display: flex;
+    padding: 8px 0 0 8px;
+    /* text-align: center; */
 }
 
 .theme:hover{
     transform: scale(1.1);
     background-color: black;
+}
+
+.drakThemeIcon{
+    width: 3vh;
+    margin-left: 3px;
 }
 
 h3{

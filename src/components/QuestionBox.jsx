@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './QuestionBox.css'
 import questions from '../questions'
 
@@ -13,6 +13,8 @@ export default function QuestionBox() {
 
   const [highlight, setHighlight] = useState("black");
 
+ 
+
   return (
     <div className='questionBox'>
       <div className='container'>
@@ -21,7 +23,7 @@ export default function QuestionBox() {
         <div className='rightContainer'>
           <button className='theme'>
             Dark
-            <img src="../assets/moon.png"/>
+            <img className='drakThemeIcon' src="https://github.com/CHINMAYEEHARANE58/CA-Four-react-boilerplate/blob/main/src/assets/moon.png?raw=true"/>
           </button>
           <h3>Question <span className='currQuestion'>{currentQuestion+1}</span> out of <span className='NumOfQuestions'>{questions.length}</span></h3>
           <h1 style={{color: highlight}} >{questions[currentQuestion].text}</h1>
