@@ -27,7 +27,6 @@
 }
 
 .leftContainer{
-    border: 1px solid red;
     width: 40vh;
     height: 85vh;
     position: absolute;
@@ -45,7 +44,6 @@
 }
 
 .rightContainer{
-    border: 1px solid rgb(48, 177, 72);
     width: 100vh;
     height: 85vh;
     position: absolute;
@@ -64,6 +62,12 @@
     background-color: rgba(111, 83, 221, 1);
     font-size: 16px;
     color: white;
+    transition: 0.5s ease;
+}
+
+.theme:hover{
+    transform: scale(1.1);
+    background-color: black;
 }
 
 h3{
@@ -81,4 +85,58 @@ h1{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 4vh;
+}
+
+.option{
+    border: 2px solid rgba(225, 225, 225, 1);
+    width: 48vh;
+    height: 8vh;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    transition: 0.5s ease;
+    box-shadow: 2px 2px 2px rgb(193, 193, 193);
+}
+
+.option:hover{
+    border: 3px solid rgba(111, 83, 221, 1);
+}
+
+.buttonsContainer{
+    width: 60vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 4vh 0 0 22vh;
+}
+
+.highlight{
+    width: 22vh;
+    height: 6vh;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(111, 83, 221, 1);
+    font-size: 16px;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.highlight:hover{
+    transform: scale(1.1);
+}
+
+.removeHighlight{
+    width: 25vh;
+    height: 6vh;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(111, 83, 221, 1);
+    font-size: 16px;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.removeHighlight:hover{
+    transform: scale(1.1);
 }

@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.result{
+    background-image: url("../assets/background.png");
+    width: 98.5vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultContainer{
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px;
+    background-color: white;
+    background-image: url("../assets/Group 7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.resultLeftContainer{
+    width: 35vh;
+    height: 70vh;
+    position: absolute;
+    left: 19.5%;
+    border-radius: 33px 0 0 33px;
+}
+
+.resultRightContainer{
+    width: 94.3vh;
+    height: 70vh;
+    position: absolute;
+    left: 36%;
+    border-radius: 0 33px 33px 0;
+}
+
+.resultTheme{
+    position: absolute;
+    right: 4vh;
+    top: 4vh;
+    height: 6vh;
+    width: 11vh;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(111, 83, 221, 1);
+    font-size: 16px;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.resultTheme:hover{
+    transform: scale(1.1);
+    background-color: black;
+}
+
+.finalResult{
+    margin-top: 20vh;
+}
+
+.score{
+    margin-top: 4vh;
+    font-size: 30px;
+}
+
+.restart{
+    width: 22vh;
+    height: 6vh;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(111, 83, 221, 1);
+    font-size: 16px;
+    color: white;
+    transition: 0.5s ease;
+    margin-top: 5vh;
+}
+
+.restart:hover{
+    transform: scale(1.1);
+}
+
