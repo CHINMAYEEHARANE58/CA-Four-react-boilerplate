@@ -76,4 +76,9 @@ h1{
 
 .options{
     height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4vh;
 }
