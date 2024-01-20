@@ -5,14 +5,21 @@
 }
 
 .questionBox{
-    background: linear-gradient(180deg, #6F53DD 0%, rgba(127, 98, 239, 0.75) 38%, rgba(118, 90, 225, 0.69) 57%, #7159CD 100%);
-    /* background: linear-gradient(180deg, #190957 0%, rgba(29, 11, 101, 0.75) 38%, rgba(29, 19, 66, 0.69) 57%, #1E0C66 100%); */
     width: 98.5vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.dark{
+    background: linear-gradient(180deg, #190957 0%, rgba(29, 11, 101, 0.75) 38%, rgba(29, 19, 66, 0.69) 57%, #1E0C66 100%);
+}
+
+
+.light{
+    background: linear-gradient(180deg, #6F53DD 0%, rgba(127, 98, 239, 0.75) 38%, rgba(118, 90, 225, 0.69) 57%, #7159CD 100%);
+} 
 
 .container{
     width: 65vw;
@@ -21,10 +28,19 @@
     justify-content: center;
     align-items: center;
     border-radius: 33px;
-    background-color: white;
-    background-image: url("../assets/Group 7.png");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.darkContainer{
+    background-image: url("../assets/Group 8.png");
+    background-color: black;
+    color: white;
+}
+
+.lightContainer{
+    background-color: white;
+    background-image: url("../assets/Group 7.png");
 }
 
 .leftContainer{
@@ -83,8 +99,9 @@ h3{
     margin-top: 20vh;
 }
 
-h1{
+.question{
     margin-top: 5vh;
+    /* color:  */
 }
 
 .options{
@@ -98,7 +115,7 @@ h1{
 
 .option{
     border: 2px solid rgba(225, 225, 225, 1);
-    width: 48vh;
+    width: 47vh;
     height: 8vh;
     font-size: 13px;
     display: flex;
